@@ -1,0 +1,497 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData grunt
+20 silly mapToRegistry name grunt
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'grunt',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'grunt',
+23 silly mapToRegistry   name: 'grunt',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/grunt
+25 silly fetchNamedPackageData grunt-connect-proxy
+26 silly mapToRegistry name grunt-connect-proxy
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'grunt-connect-proxy',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'grunt-connect-proxy',
+29 silly mapToRegistry   name: 'grunt-connect-proxy',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/grunt-connect-proxy
+31 silly fetchNamedPackageData grunt-contrib-connect
+32 silly mapToRegistry name grunt-contrib-connect
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'grunt-contrib-connect',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'grunt-contrib-connect',
+35 silly mapToRegistry   name: 'grunt-contrib-connect',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-connect
+37 silly fetchNamedPackageData load-grunt-tasks
+38 silly mapToRegistry name load-grunt-tasks
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'load-grunt-tasks',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'load-grunt-tasks',
+41 silly mapToRegistry   name: 'load-grunt-tasks',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/load-grunt-tasks
+43 verbose request uri https://registry.npmjs.org/grunt-connect-proxy
+44 verbose request no auth needed
+45 info attempt registry request try #1 at 7:39:12 PM
+46 verbose request id 0438f059a7243df5
+47 http request GET https://registry.npmjs.org/grunt-connect-proxy
+48 verbose request uri https://registry.npmjs.org/grunt
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 7:39:12 PM
+51 verbose etag W/"5a0071e9-18cd3"
+52 verbose lastModified Mon, 06 Nov 2017 14:30:01 GMT
+53 http request GET https://registry.npmjs.org/grunt
+54 verbose request uri https://registry.npmjs.org/load-grunt-tasks
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 7:39:12 PM
+57 verbose etag W/"59e2fd0f-80e2"
+58 verbose lastModified Sun, 15 Oct 2017 06:15:43 GMT
+59 http request GET https://registry.npmjs.org/load-grunt-tasks
+60 verbose request uri https://registry.npmjs.org/grunt-contrib-connect
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 7:39:12 PM
+63 verbose etag W/"599cb3e5-f117"
+64 verbose lastModified Tue, 22 Aug 2017 22:44:53 GMT
+65 http request GET https://registry.npmjs.org/grunt-contrib-connect
+66 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+67 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+68 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+69 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+70 info attempt registry request try #2 at 7:39:24 PM
+71 http request GET https://registry.npmjs.org/grunt-connect-proxy
+72 info attempt registry request try #2 at 7:39:24 PM
+73 verbose etag W/"59e2fd0f-80e2"
+74 verbose lastModified Sun, 15 Oct 2017 06:15:43 GMT
+75 http request GET https://registry.npmjs.org/load-grunt-tasks
+76 info attempt registry request try #2 at 7:39:24 PM
+77 verbose etag W/"5a0071e9-18cd3"
+78 verbose lastModified Mon, 06 Nov 2017 14:30:01 GMT
+79 http request GET https://registry.npmjs.org/grunt
+80 info attempt registry request try #2 at 7:39:24 PM
+81 verbose etag W/"599cb3e5-f117"
+82 verbose lastModified Tue, 22 Aug 2017 22:44:53 GMT
+83 http request GET https://registry.npmjs.org/grunt-contrib-connect
+84 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+85 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+86 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+87 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+88 info attempt registry request try #3 at 7:40:26 PM
+89 http request GET https://registry.npmjs.org/grunt-connect-proxy
+90 info attempt registry request try #3 at 7:40:26 PM
+91 verbose etag W/"5a0071e9-18cd3"
+92 verbose lastModified Mon, 06 Nov 2017 14:30:01 GMT
+93 http request GET https://registry.npmjs.org/grunt
+94 info attempt registry request try #3 at 7:40:26 PM
+95 verbose etag W/"59e2fd0f-80e2"
+96 verbose lastModified Sun, 15 Oct 2017 06:15:43 GMT
+97 http request GET https://registry.npmjs.org/load-grunt-tasks
+98 info attempt registry request try #3 at 7:40:26 PM
+99 verbose etag W/"599cb3e5-f117"
+100 verbose lastModified Tue, 22 Aug 2017 22:44:53 GMT
+101 http request GET https://registry.npmjs.org/grunt-contrib-connect
+102 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+102 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+102 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+102 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+102 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+102 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:310:9)
+102 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+102 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+102 silly fetchPackageMetaData     at connectErrorNT (net.js:1025:8)
+102 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+102 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+102 silly fetchPackageMetaData  error for grunt-connect-proxy@^0.2.0 { Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+102 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+102 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+102 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+102 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+102 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:310:9)
+102 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+102 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+102 silly fetchPackageMetaData     at connectErrorNT (net.js:1025:8)
+102 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+102 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+103 silly get cb [ 304, undefined ]
+104 verbose etag https://registry.npmjs.org/grunt-contrib-connect from cache
+105 verbose get saving grunt-contrib-connect to C:\Users\C5262685\AppData\Roaming\npm-cache\registry.npmjs.org\grunt-contrib-connect\.cache.json
+106 verbose correctMkdir C:\Users\C5262685\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+107 silly get cb [ 304, undefined ]
+108 verbose etag https://registry.npmjs.org/grunt from cache
+109 verbose get saving grunt to C:\Users\C5262685\AppData\Roaming\npm-cache\registry.npmjs.org\grunt\.cache.json
+110 verbose correctMkdir C:\Users\C5262685\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+111 silly get cb [ 304, undefined ]
+112 verbose etag https://registry.npmjs.org/load-grunt-tasks from cache
+113 verbose get saving load-grunt-tasks to C:\Users\C5262685\AppData\Roaming\npm-cache\registry.npmjs.org\load-grunt-tasks\.cache.json
+114 verbose correctMkdir C:\Users\C5262685\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+115 silly resolveWithNewModule grunt@0.4.5 checking installable status
+116 silly cache add args [ 'grunt@^0.4.5', null ]
+117 verbose cache add spec grunt@^0.4.5
+118 silly cache add parsed spec Result {
+118 silly cache add   raw: 'grunt@^0.4.5',
+118 silly cache add   scope: null,
+118 silly cache add   escapedName: 'grunt',
+118 silly cache add   name: 'grunt',
+118 silly cache add   rawSpec: '^0.4.5',
+118 silly cache add   spec: '>=0.4.5 <0.5.0',
+118 silly cache add   type: 'range' }
+119 silly addNamed grunt@>=0.4.5 <0.5.0
+120 verbose addNamed ">=0.4.5 <0.5.0" is a valid semver range for grunt
+121 silly addNameRange { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: false }
+122 silly mapToRegistry name grunt
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry data Result {
+125 silly mapToRegistry   raw: 'grunt',
+125 silly mapToRegistry   scope: null,
+125 silly mapToRegistry   escapedName: 'grunt',
+125 silly mapToRegistry   name: 'grunt',
+125 silly mapToRegistry   rawSpec: '',
+125 silly mapToRegistry   spec: 'latest',
+125 silly mapToRegistry   type: 'tag' }
+126 silly mapToRegistry uri https://registry.npmjs.org/grunt
+127 verbose addNameRange registry:https://registry.npmjs.org/grunt not in flight; fetching
+128 silly resolveWithNewModule grunt-contrib-connect@0.9.0 checking installable status
+129 silly cache add args [ 'grunt-contrib-connect@^0.9.0', null ]
+130 verbose cache add spec grunt-contrib-connect@^0.9.0
+131 silly cache add parsed spec Result {
+131 silly cache add   raw: 'grunt-contrib-connect@^0.9.0',
+131 silly cache add   scope: null,
+131 silly cache add   escapedName: 'grunt-contrib-connect',
+131 silly cache add   name: 'grunt-contrib-connect',
+131 silly cache add   rawSpec: '^0.9.0',
+131 silly cache add   spec: '>=0.9.0 <0.10.0',
+131 silly cache add   type: 'range' }
+132 silly addNamed grunt-contrib-connect@>=0.9.0 <0.10.0
+133 verbose addNamed ">=0.9.0 <0.10.0" is a valid semver range for grunt-contrib-connect
+134 silly addNameRange { name: 'grunt-contrib-connect',
+134 silly addNameRange   range: '>=0.9.0 <0.10.0',
+134 silly addNameRange   hasData: false }
+135 silly mapToRegistry name grunt-contrib-connect
+136 silly mapToRegistry using default registry
+137 silly mapToRegistry registry https://registry.npmjs.org/
+138 silly mapToRegistry data Result {
+138 silly mapToRegistry   raw: 'grunt-contrib-connect',
+138 silly mapToRegistry   scope: null,
+138 silly mapToRegistry   escapedName: 'grunt-contrib-connect',
+138 silly mapToRegistry   name: 'grunt-contrib-connect',
+138 silly mapToRegistry   rawSpec: '',
+138 silly mapToRegistry   spec: 'latest',
+138 silly mapToRegistry   type: 'tag' }
+139 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-connect
+140 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-connect not in flight; fetching
+141 silly resolveWithNewModule load-grunt-tasks@3.5.2 checking installable status
+142 silly cache add args [ 'load-grunt-tasks@^3.4.1', null ]
+143 verbose cache add spec load-grunt-tasks@^3.4.1
+144 silly cache add parsed spec Result {
+144 silly cache add   raw: 'load-grunt-tasks@^3.4.1',
+144 silly cache add   scope: null,
+144 silly cache add   escapedName: 'load-grunt-tasks',
+144 silly cache add   name: 'load-grunt-tasks',
+144 silly cache add   rawSpec: '^3.4.1',
+144 silly cache add   spec: '>=3.4.1 <4.0.0',
+144 silly cache add   type: 'range' }
+145 silly addNamed load-grunt-tasks@>=3.4.1 <4.0.0
+146 verbose addNamed ">=3.4.1 <4.0.0" is a valid semver range for load-grunt-tasks
+147 silly addNameRange { name: 'load-grunt-tasks',
+147 silly addNameRange   range: '>=3.4.1 <4.0.0',
+147 silly addNameRange   hasData: false }
+148 silly mapToRegistry name load-grunt-tasks
+149 silly mapToRegistry using default registry
+150 silly mapToRegistry registry https://registry.npmjs.org/
+151 silly mapToRegistry data Result {
+151 silly mapToRegistry   raw: 'load-grunt-tasks',
+151 silly mapToRegistry   scope: null,
+151 silly mapToRegistry   escapedName: 'load-grunt-tasks',
+151 silly mapToRegistry   name: 'load-grunt-tasks',
+151 silly mapToRegistry   rawSpec: '',
+151 silly mapToRegistry   spec: 'latest',
+151 silly mapToRegistry   type: 'tag' }
+152 silly mapToRegistry uri https://registry.npmjs.org/load-grunt-tasks
+153 verbose addNameRange registry:https://registry.npmjs.org/load-grunt-tasks not in flight; fetching
+154 verbose get https://registry.npmjs.org/load-grunt-tasks not expired, no request
+155 silly addNameRange number 2 { name: 'load-grunt-tasks',
+155 silly addNameRange   range: '>=3.4.1 <4.0.0',
+155 silly addNameRange   hasData: true }
+156 silly addNameRange versions [ 'load-grunt-tasks',
+156 silly addNameRange   [ '0.1.0',
+156 silly addNameRange     '0.1.1',
+156 silly addNameRange     '0.1.2',
+156 silly addNameRange     '0.1.3',
+156 silly addNameRange     '0.2.0',
+156 silly addNameRange     '0.2.1',
+156 silly addNameRange     '0.3.0',
+156 silly addNameRange     '0.4.0',
+156 silly addNameRange     '0.5.0',
+156 silly addNameRange     '0.6.0',
+156 silly addNameRange     '1.0.0',
+156 silly addNameRange     '2.0.0',
+156 silly addNameRange     '3.0.0',
+156 silly addNameRange     '3.1.0',
+156 silly addNameRange     '3.2.0',
+156 silly addNameRange     '3.3.0',
+156 silly addNameRange     '3.4.0',
+156 silly addNameRange     '3.4.1',
+156 silly addNameRange     '3.5.0',
+156 silly addNameRange     '3.5.1',
+156 silly addNameRange     '3.5.2' ] ]
+157 silly addNamed load-grunt-tasks@3.5.2
+158 verbose addNamed "3.5.2" is a plain semver version for load-grunt-tasks
+159 verbose get https://registry.npmjs.org/grunt-contrib-connect not expired, no request
+160 silly addNameRange number 2 { name: 'grunt-contrib-connect',
+160 silly addNameRange   range: '>=0.9.0 <0.10.0',
+160 silly addNameRange   hasData: true }
+161 silly addNameRange versions [ 'grunt-contrib-connect',
+161 silly addNameRange   [ '0.1.0',
+161 silly addNameRange     '0.1.1',
+161 silly addNameRange     '0.1.2',
+161 silly addNameRange     '0.2.0',
+161 silly addNameRange     '0.3.0',
+161 silly addNameRange     '0.4.0',
+161 silly addNameRange     '0.4.1',
+161 silly addNameRange     '0.4.2',
+161 silly addNameRange     '0.5.0',
+161 silly addNameRange     '0.6.0',
+161 silly addNameRange     '0.7.0',
+161 silly addNameRange     '0.7.1',
+161 silly addNameRange     '0.8.0',
+161 silly addNameRange     '0.9.0',
+161 silly addNameRange     '0.10.0',
+161 silly addNameRange     '0.10.1',
+161 silly addNameRange     '0.11.0',
+161 silly addNameRange     '0.11.1',
+161 silly addNameRange     '0.11.2',
+161 silly addNameRange     '1.0.0',
+161 silly addNameRange     '1.0.1',
+161 silly addNameRange     '1.0.2',
+161 silly addNameRange     '0.1.1-rc6' ] ]
+162 silly addNamed grunt-contrib-connect@0.9.0
+163 verbose addNamed "0.9.0" is a plain semver version for grunt-contrib-connect
+164 verbose get https://registry.npmjs.org/grunt not expired, no request
+165 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: true }
+166 silly addNameRange versions [ 'grunt',
+166 silly addNameRange   [ '0.1.0',
+166 silly addNameRange     '0.1.1',
+166 silly addNameRange     '0.1.2',
+166 silly addNameRange     '0.2.0',
+166 silly addNameRange     '0.2.1',
+166 silly addNameRange     '0.2.2',
+166 silly addNameRange     '0.2.3',
+166 silly addNameRange     '0.2.4',
+166 silly addNameRange     '0.2.5',
+166 silly addNameRange     '0.2.6',
+166 silly addNameRange     '0.2.7',
+166 silly addNameRange     '0.2.8',
+166 silly addNameRange     '0.2.9',
+166 silly addNameRange     '0.2.10',
+166 silly addNameRange     '0.2.11',
+166 silly addNameRange     '0.2.12',
+166 silly addNameRange     '0.2.13',
+166 silly addNameRange     '0.2.14',
+166 silly addNameRange     '0.2.15',
+166 silly addNameRange     '0.3.0',
+166 silly addNameRange     '0.3.1',
+166 silly addNameRange     '0.3.2',
+166 silly addNameRange     '0.3.3',
+166 silly addNameRange     '0.3.4',
+166 silly addNameRange     '0.3.5',
+166 silly addNameRange     '0.3.6',
+166 silly addNameRange     '0.3.7',
+166 silly addNameRange     '0.3.8',
+166 silly addNameRange     '0.3.9',
+166 silly addNameRange     '0.3.10',
+166 silly addNameRange     '0.3.11',
+166 silly addNameRange     '0.3.12',
+166 silly addNameRange     '0.3.13',
+166 silly addNameRange     '0.3.14',
+166 silly addNameRange     '0.3.15',
+166 silly addNameRange     '0.3.16',
+166 silly addNameRange     '0.3.17',
+166 silly addNameRange     '0.4.0',
+166 silly addNameRange     '0.4.1',
+166 silly addNameRange     '0.4.2',
+166 silly addNameRange     '0.4.3',
+166 silly addNameRange     '0.4.4',
+166 silly addNameRange     '0.4.5',
+166 silly addNameRange     '1.0.0-rc1',
+166 silly addNameRange     '1.0.0',
+166 silly addNameRange     '1.0.1',
+166 silly addNameRange     '0.3.13-a',
+166 silly addNameRange     '0.4.0-a',
+166 silly addNameRange     '0.4.0-rc1',
+166 silly addNameRange     '0.4.0-rc2',
+166 silly addNameRange     '0.4.0-rc3',
+166 silly addNameRange     '0.4.0-rc4',
+166 silly addNameRange     '0.4.0-rc5',
+166 silly addNameRange     '0.4.0-rc6',
+166 silly addNameRange     '0.4.0-rc7',
+166 silly addNameRange     '0.4.0-rc8' ] ]
+167 silly addNamed grunt@0.4.5
+168 verbose addNamed "0.4.5" is a plain semver version for grunt
+169 silly mapToRegistry name load-grunt-tasks
+170 silly mapToRegistry using default registry
+171 silly mapToRegistry registry https://registry.npmjs.org/
+172 silly mapToRegistry data Result {
+172 silly mapToRegistry   raw: 'load-grunt-tasks',
+172 silly mapToRegistry   scope: null,
+172 silly mapToRegistry   escapedName: 'load-grunt-tasks',
+172 silly mapToRegistry   name: 'load-grunt-tasks',
+172 silly mapToRegistry   rawSpec: '',
+172 silly mapToRegistry   spec: 'latest',
+172 silly mapToRegistry   type: 'tag' }
+173 silly mapToRegistry uri https://registry.npmjs.org/load-grunt-tasks
+174 verbose addRemoteTarball https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.5.2.tgz not in flight; adding
+175 verbose addRemoteTarball [ 'https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.5.2.tgz',
+175 verbose addRemoteTarball   '0728561180fd20ff8a6927505852fc58aaea0c88' ]
+176 silly mapToRegistry name grunt-contrib-connect
+177 silly mapToRegistry using default registry
+178 silly mapToRegistry registry https://registry.npmjs.org/
+179 silly mapToRegistry data Result {
+179 silly mapToRegistry   raw: 'grunt-contrib-connect',
+179 silly mapToRegistry   scope: null,
+179 silly mapToRegistry   escapedName: 'grunt-contrib-connect',
+179 silly mapToRegistry   name: 'grunt-contrib-connect',
+179 silly mapToRegistry   rawSpec: '',
+179 silly mapToRegistry   spec: 'latest',
+179 silly mapToRegistry   type: 'tag' }
+180 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-connect
+181 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.9.0.tgz not in flight; adding
+182 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.9.0.tgz',
+182 verbose addRemoteTarball   'deda5a5bd875a5ba2fdd4b77ae7d0689d5dee4c8' ]
+183 info retry fetch attempt 1 at 7:40:29 PM
+184 info attempt registry request try #1 at 7:40:29 PM
+185 http fetch GET https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.5.2.tgz
+186 info retry fetch attempt 1 at 7:40:29 PM
+187 info attempt registry request try #1 at 7:40:29 PM
+188 http fetch GET https://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.9.0.tgz
+189 silly cache afterAdd grunt@0.4.5
+190 verbose afterAdd C:\Users\C5262685\AppData\Roaming\npm-cache\grunt\0.4.5\package\package.json not in flight; writing
+191 verbose correctMkdir C:\Users\C5262685\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+192 verbose afterAdd C:\Users\C5262685\AppData\Roaming\npm-cache\grunt\0.4.5\package\package.json written
+193 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+194 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+195 info attempt registry request try #2 at 7:40:41 PM
+196 http fetch GET https://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.9.0.tgz
+197 info attempt registry request try #2 at 7:40:41 PM
+198 http fetch GET https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.5.2.tgz
+199 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+200 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+201 info attempt registry request try #3 at 7:41:44 PM
+202 http fetch GET https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.5.2.tgz
+203 info attempt registry request try #3 at 7:41:44 PM
+204 http fetch GET https://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.9.0.tgz
+205 error fetch failed https://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.9.0.tgz
+206 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+207 error fetch failed https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.5.2.tgz
+208 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+209 info retry fetch attempt 2 at 7:41:56 PM
+210 info attempt registry request try #1 at 7:41:56 PM
+211 http fetch GET https://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.9.0.tgz
+212 info retry fetch attempt 2 at 7:41:56 PM
+213 info attempt registry request try #1 at 7:41:56 PM
+214 http fetch GET https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.5.2.tgz
+215 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+216 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+217 info attempt registry request try #2 at 7:42:09 PM
+218 http fetch GET https://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.9.0.tgz
+219 info attempt registry request try #2 at 7:42:09 PM
+220 http fetch GET https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.5.2.tgz
+221 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+222 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+223 info attempt registry request try #3 at 7:43:11 PM
+224 http fetch GET https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.5.2.tgz
+225 info attempt registry request try #3 at 7:43:11 PM
+226 http fetch GET https://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.9.0.tgz
+227 error fetch failed https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.5.2.tgz
+228 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+229 error fetch failed https://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.9.0.tgz
+230 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+231 info retry fetch attempt 3 at 7:44:13 PM
+232 info attempt registry request try #1 at 7:44:13 PM
+233 http fetch GET https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.5.2.tgz
+234 info retry fetch attempt 3 at 7:44:13 PM
+235 info attempt registry request try #1 at 7:44:13 PM
+236 http fetch GET https://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.9.0.tgz
+237 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+238 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+239 info attempt registry request try #2 at 7:44:26 PM
+240 http fetch GET https://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.9.0.tgz
+241 info attempt registry request try #2 at 7:44:26 PM
+242 http fetch GET https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.5.2.tgz
+243 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+244 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+245 info attempt registry request try #3 at 7:45:28 PM
+246 http fetch GET https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.5.2.tgz
+247 info attempt registry request try #3 at 7:45:28 PM
+248 http fetch GET https://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.9.0.tgz
+249 error fetch failed https://registry.npmjs.org/load-grunt-tasks/-/load-grunt-tasks-3.5.2.tgz
+250 error fetch failed https://registry.npmjs.org/grunt-contrib-connect/-/grunt-contrib-connect-0.9.0.tgz
+251 silly rollbackFailedOptional Starting
+252 silly rollbackFailedOptional Finishing
+253 silly runTopLevelLifecycles Finishing
+254 silly install printInstalled
+255 verbose stack Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+255 verbose stack     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+255 verbose stack     at ClientRequest.g (events.js:292:16)
+255 verbose stack     at emitOne (events.js:96:13)
+255 verbose stack     at ClientRequest.emit (events.js:188:7)
+255 verbose stack     at Socket.socketErrorListener (_http_client.js:310:9)
+255 verbose stack     at emitOne (events.js:96:13)
+255 verbose stack     at Socket.emit (events.js:188:7)
+255 verbose stack     at connectErrorNT (net.js:1025:8)
+255 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+255 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+256 verbose cwd C:\Users\C5262685\Desktop\Sample Projects\basicapp
+257 error Windows_NT 10.0.14393
+258 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+259 error node v6.11.4
+260 error npm  v3.10.10
+261 error code ECONNRESET
+262 error network tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy proxy:8080
+263 error network This is most likely not a problem with npm itself
+263 error network and is related to network connectivity.
+263 error network In most cases you are behind a proxy or have bad network settings.
+263 error network
+263 error network If you are behind a proxy, please make sure that the
+263 error network 'proxy' config is set properly.  See: 'npm help config'
+264 verbose exit [ 1, true ]

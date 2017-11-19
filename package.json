@@ -1,24 +1,22 @@
 {
-    "name": "simplefiori",
+    "name": "BasicApp",
     "version": "1.0.0",
-    "description": "Jerry's test Fiori project",
+    "description": "Pinaki's test Fiori project",
     "main": "index.html",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/i042416/simpleFiori.git"
+      "url": "git+https://github.com/pinakipatrapro/basicapp.git"
     },
     "keywords": [
       "local"
     ],
     "author": "i042416",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/i042416/simpleFiori/issues"
-    },
-    "homepage": "https://github.com/i042416/simpleFiori#readme",
+    
+    "homepage": "https://github.com/pinakipatrapro/basicapp.git#readme",
   
     "devDependencies": {
     "grunt": "^0.4.5",
