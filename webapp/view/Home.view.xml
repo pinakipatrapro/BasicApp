@@ -6,6 +6,7 @@
 				<content>
 					<Button
 						text="Press Me"
+						type="Accept"
 					/>
 				</content>
 			</Page>
