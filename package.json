@@ -1,27 +1,79 @@
 {
-    "name": "BasicApp",
-    "version": "1.0.0",
-    "description": "Pinaki's test Fiori project",
-    "main": "index.html",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/pinakipatrapro/basicapp.git"
-    },
-    "keywords": [
-      "local"
+    "name": "pinaki",
+    "version": "0.0.1",
+    "private": true,
+    "author": "Pinaki",
+    "contributors": [
+      "Pinaki Patra"
     ],
-    "author": "i042416",
-    "license": "ISC",
-    
-    "homepage": "https://github.com/pinakipatrapro/basicapp.git#readme",
-  
     "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-connect-proxy": "^0.2.0",
-    "grunt-contrib-connect": "^0.9.0",
-    "load-grunt-tasks": "^3.4.1"
+      "chai": "^4.1.1",
+      "connect-livereload": "^0.5.4",
+      "custdev-sapui5-infra-util": "https://github.com/pinakipatrapro/basicapp.git",
+      "grunt": "^0.4.5",
+      "grunt-cli": "^1.2.0",
+      "grunt-connect-rewrite": "^0.2.1",
+      "grunt-contrib-clean": "^1.0.0",
+      "grunt-contrib-compress": "^1.3.0",
+      "grunt-contrib-connect": "^1.0.2",
+      "grunt-contrib-copy": "^1.0.0",
+      "grunt-contrib-watch": "^1.0.0",
+      "grunt-curl": "^2.2.0",
+      "grunt-eslint": "^18.1.0",
+      "grunt-jsdoc": "^2.1.0",
+      "grunt-karma": "^2.0.0",
+      "grunt-middleware-proxy": "^1.0.3",
+      "grunt-nwabap-ui5uploader": "^0.1.10",
+      "grunt-openui5": "^0.9.0",
+      "grunt-zip": "^0.17.1",
+      "istanbul": "^0.4.5",
+      "karma": "^1.3.0",
+      "karma-chrome-launcher": "^1.0.1",
+      "karma-coverage": "^1.1.1",
+      "karma-firefox-launcher": "^1.0.0",
+      "karma-junit-reporter": "^1.1.0",
+      "karma-openui5": "^0.2.0",
+      "karma-phantomjs-launcher": "^1.0.0",
+      "karma-qunit": "^1.2.0",
+      "mocha": "^3.5.0",
+      "phantomjs-prebuilt": "^2.1.7",
+      "qunitjs": "^1.14.0",
+      "ui5-module-loader": "git://github.wdf.sap.corp/I850193/ui5-module-loader#0.3.0",
+      "sinon": "^3.2.1",
+      "sinon-chai": "^2.13.0"
+    },
+    "scripts": {
+      "serve": "grunt serve",
+      "dev": "grunt dev",
+      "test": "grunt eslint",
+      "unit-tests": "node node_modules/mocha/bin/mocha src/test/unittests --colors --recursive",
+      "testwatcher": "node node_modules/mocha/bin/mocha src/test/unittests --colors --recursive --watch",
+      "integration-tests": "grunt integration-tests",
+      "postinstall": "git config http.sslVerify false",
+      "download-sapui5": "grunt download-sapui5"
+    },
+    "sapui5": {
+      "version": "1.44.4",
+      "resources": "sdk/sapui5-sdk-dist-1.44.4-static/resources",
+      "testResources": "sdk/sapui5-sdk-dist-1.44.4-static/test-resources",
+      "libs": [],
+      "apps": [
+        {
+          "name": "BasicApp",
+          "namespace": "pinaki",
+          "resources": "/webapp"
+        }
+      ],
+      "proxies": [],
+      "browsers": [
+        "PhantomJS"
+      ],
+      "xmake": {
+        "browsers": [
+          "PhantomJS"
+        ],
+        "resources": "https://sapui5.hana.ondemand.com/1.38.7/resources/",
+        "testResources": "https://sapui5.hana.ondemand.com/1.38.7/test-resources/"
+      }
     }
   }
